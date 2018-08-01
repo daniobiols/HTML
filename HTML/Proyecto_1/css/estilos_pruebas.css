@@ -1,0 +1,28 @@
+  .negro
+{
+  height: 100px;
+  width: 600px;
+  background-color: black;
+  bottom: 50px;
+  position: fixed;
+  top: 0px;
+  left: 50%;
+}
+
+.verde
+{
+  height: 100px;
+  width: 100px;
+  background-color: green;
+  bottom: 50px;
+  position: relative;
+}
+
+.rojo
+{
+  position: absolute;
+  height: 200px;
+  width: 100px;;
+  background-color: red;
+  top: 20px;
+}

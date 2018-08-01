@@ -1,0 +1,67 @@
+body
+{
+  font-family: 'Roboto', sans-serif;
+  background-image: url(../src/background/background.png);
+  background-attachment: fixed;
+}
+h1
+{
+  color:white;
+  background-color:black;
+  text-align: center;
+}
+h2
+{
+  color:rgba(201, 245, 248, 1);
+  background-color:rgba(255, 0, 0, 0.5);(201, 245, 248, 1);
+  font-style: italic;
+  text-decoration: underline;
+  font-weight: normal;
+}
+
+p
+{
+  text-align: justify;
+  font-size: 23px;
+}
+
+
+li
+{
+  color:blue;
+
+}
+
+strong
+{
+  font-weight: normal;
+}
+
+.verde
+{
+  background-color: green;
+  background-size: 200px;
+}
+
+.rojo
+{
+  background-color: red;
+}
+
+.destacado
+{
+  color: red;
+  background-color: blue;
+  font-size: 22px;
+}
+
+.clase_section
+{
+  background-color: yellow
+}
+
+.titulos_carta
+{
+  font-size: 18px;
+  font-weight: bold;
+}

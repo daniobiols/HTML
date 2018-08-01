@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Tu Restaurante</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link rel="stylesheet" href="../css/estilos.css">
+    <link rel="stylesheet" href="../css/estilos_etiquetas.css">
+  </head>
+  <body>
+
+    <header class="estilo_elementos">
+      <h1>Mi Restaurante</h1>
+    </header>
+
+    <section class="estilo_elementos">
+      <br>
+        <a href="http://www.Facebook.com" target="new"> <img src="../src/img/icons/fb.png"></a>
+        <a href="https://www.instagram.com" target="new"><img src="../src/img/icons/insta.png"></a>
+        <a href="https://www.twitter.com" target="new"><img src="../src/img/icons/twitter.png"></a>
+        <br>
+        <br>
+        <br>
+        <br>
+      <!--CREO # LINK PARA IR A UN LUGAR DENTRO DEL MISMO SITIO-->
+        <a href="#carta_resto">Carta de Restaurant (DENTRO DE ESTE SITIO)</a>
+        <br>
+        <br>
+      <!--LINK PARA IR A UN NUEVO SITIO -->
+        <a href="galeria.html" target="_blank"> Ir a Galeria (NUEVA PAGINA) </a>
+        <br>
+        <br>
+        <a class="verde" href="mailto:danielaobiols@gmail.com">Enviar Correo</a>
+        <a class="rojo" href="mailto:danielaobiols@gmail.com">Enviar Correo</a>
+        <div>
+          <label for="">Hola</label>
+        </div>
+        <br>
+    </section>
+
+    <section class="estilo_elementos">
+      <h2>Conocenos</h2>
+      <article class="estilo_elementos">
+        <br>
+        <video width="480" controls poster="../src/img/icons/video.png" autoplay loop muted>
+          <source src="../src/video/video.mp4" type="video/mp4">
+        </video>
+        <br>
+        <img src="http://www.realdetroitweekly.com/wp-content/uploads/2017/06/Restaurants.jpg" alt="imagen web" width="500px">
+        <br>
+      </article>
+      <article class="estilo_elementos">
+        <!--CREO # LINK PARA IR A UN LUGAR DENTRO DEL MISMO SITIO-->
+              <p class="destacado">FUNCION DESTACADO Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+              <br>
+              <p><strong>CON CLASE</strong> <abbr title="texto de prueba">Lorem</abbr> ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+              <br>
+              <p>SIN CLASE Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+      </article>
+
+    </section>
+
+    <article class="estilo_elementos">
+      <!-- LISTAS -->
+            <h2 id="carta_resto">Carta de Nuestro Restaurante</h1>
+            <ul>
+                  <li style="color:red; font-size:40;">Entradas</li>
+                  <ol type="a">
+                    <li>Papas Fritas</li>
+                    <li>Chicken Fingers</li>
+                    <li>Aros de Cebolla</li>
+                    <li>Bastones de Muzarella</li>
+                  </ol>
+                <li>Platos Principales</li>
+                <ol type="a">
+                  <li>Hamburguesa</li>
+                  <li>Milanesa</li>
+                  <li>Pastas</li>
+                </ol>
+                <li>Postres</li>
+                <ol type="a">
+                  <li>Flan</li>
+                  <li>Ensalada de Frutas</li>
+                </ol>
+                <li>Bebidas</li>
+                <ol type="a"  >
+                  <li>Con alcohol</li>
+                  <li>Sin alcohol</li>
+                </ol>
+              </ul>
+            </ul>
+    </article>
+
+    <article class="estilo_elementos">
+          <h2>Formulario de Contacto</h2>
+          <form class="" action="index.html" method="post">
+            <fieldset>
+              <legend>Datos Adicionales</legend>
+              <label for="name">Nombre: </label>
+              <input type=”text” name=”usuario” id="name">
+              <br>
+              <label for="Email">Email: </label>
+              <input type="email" placeholder="juan@email.com" name=”correo” id="Email">
+              <br>
+              <label for="telefono">Telefono: </label>
+              <input type=”tel” name=”telefono” id="telefono">
+              <br>
+              <label for="number">Numero:</label>
+              <input type=”number” name="numero" id="number">
+              <br>
+              <label for="file">Seleccionar Archivo:</label>
+              <input type=file name="archivo" id="file">
+              <br>
+              <label for="Estado_Civil">Estado Civil</label>
+              <br>
+              <label for="soltero">Soltero</label>
+              <input type="radio" name="soltero" value="soltero" id="soltero">
+              <label for="casado">Casado</label>
+              <input type="radio" name="casado" value="casado" id="casado">
+              <br>
+              <br>
+              <button type="submit" name="button">Enviar Formulario</button>
+              <button type="reset" name="button">Limpiar formulario</button>
+            </fieldset>
+          </form>
+        </article>
+        <br>
+        <footer class="estilo_footer">
+          <h2>Links Externos</h2>
+          <a href="formulario.html" target="_blank">Formularios en HTML</a>
+        </footer>
+      </body>
+</html>

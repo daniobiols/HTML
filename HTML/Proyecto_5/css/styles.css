@@ -1,0 +1,62 @@
+*{
+  box-sizing: border-box;
+}
+
+header
+{
+  width: 100vw;
+  height: 20vh;
+  border: 10px red;
+  background: yellow;
+}
+
+.container
+{
+  width: 1200px;
+  border: 10px;
+  background-color: black;
+}
+
+.cajaA
+{
+  display: inline-block;
+  float: left;
+  overflow:hidden;
+  width: 250px;
+  border: 20px;
+  background-color: green;
+
+}
+.cajaB
+{
+  display: inline-block;
+  float: left;
+  overflow: hidden;
+  width: 55%;
+  border: 20px;
+  padding: 25px;
+  background-color: red;
+}
+.cajaC
+{
+  display: inline-block;
+  overflow: hidden;
+  width: 100%;
+  border: 20px;
+  background-color: blue;
+}
+
+h2
+{
+  font-size: 1.75em;
+}
+
+p
+{
+  font-size: 0.81em;
+}
+
+strong
+{
+  font-size: 0.92em;
+}

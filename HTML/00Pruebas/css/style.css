@@ -1,0 +1,32 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.azul{
+  text-align: center;
+}
+
+.rojo
+{
+  height: 50px;
+  background-color: red;
+}
+
+.verde
+{
+  height: 50px;
+  background-color: green;
+}
+
+.azul
+{
+  height: 50px;
+  background-color: blue;
+}
+/*
+.imagen
+{
+  margin: 0 auto;
+} */

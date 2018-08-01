@@ -1,0 +1,201 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+@font-face {
+    font-family:"Lato";
+    src: url(../src/fonts/Lato/Lato-Regular.ttf);
+}
+
+@font-face {
+    font-family:"Lato_thin";
+    src: url(../src/fonts/Lato/Lato-Light.ttf);
+}
+
+@font-face {
+    font-family:"Montserrat";
+    src: url(../src/fonts/Montserrat/Montserrat-Bold.ttf);
+}
+
+/* icon-inner, svg {
+    height: 120%;
+  } */
+
+.menu_top{
+  background-color: #2C3E50;
+  padding: 20px;
+  margin-bottom: 0;
+}
+
+.menu_item{
+  color: white;
+  font-family: "Montserrat";
+  font-size: 18px;
+  list-style-type: none;
+}
+
+.main{
+  background-color: #18BC9C;
+  width: 100%;
+  border-top: 10px;
+  border-bottom: 10px;
+  border-style: solid;
+  border-color: #18BC9C;
+
+}
+
+.btn_menu{
+  color: white;
+  font-family: "Lato_thin";
+  background-color: #18BC9C;
+}
+
+.img_profile{
+  text-align: center;
+  margin-left: 5px;
+  margin-bottom: 10px;
+}
+
+.main_text{
+    background-color: #18BC9C;
+    color: white;
+    text-align: center;
+}
+
+.main_text div h2{
+    font-family: "Montserrat";
+    font-size: 33px;
+}
+
+.main_text div h3{
+  font-family: "Lato_thin";
+  color: white;
+  text-align: center;
+  font-size: 20px;
+}
+
+.portfolio{
+    margin: 30px;
+}
+
+.imagenes_portfolio{
+  border-left: 20px solid white;
+  width: 100%;
+  text-align: center;
+}
+
+.imagen_portfolio img{
+  border-top: 10px solid white;
+  border-bottom: 10px solid white;
+  width: 100%;
+  text-align: center;
+}
+
+.portfolio_text{
+  font-family: "Montserrat";
+  font-size: 33px;
+  text-align: center;
+}
+
+.about{
+  padding: 10%;
+}
+
+.about_menu{
+  background-color: #18BC9C;
+  padding: 100px;
+}
+
+.about_tittle{
+    font-family: "Montserrat";
+    color: white;
+    text-align: center;
+    font-size: 33px;
+  }
+
+.about_text
+{
+  font-family: "Lato_thin";
+  color: white;
+  text-align: center;
+  font-size: 15px;
+}
+
+.justificado
+{
+  text-align: left;
+}
+
+.formulario{
+  margin: 30px;
+}
+
+.form_tittle{
+  font-family: "Montserrat";
+  text-align: center;
+  font-size: 33px;
+}
+
+.btn-primary {
+    font-family: "Lato_thin";
+    background-color: #18BC9C;
+    color: white;
+    border-color: #18BC9C;
+}
+
+.btn_menu_download{
+
+  color: white;
+  font-family: "Lato_thin";
+  background-color: #18BC9C;
+  border: 1px solid white;
+}
+
+.btn_menu_download2{
+    text-align: center;
+}
+
+.pie{
+  padding: 30px;
+  background-color: #2C3E50;
+  color: white;
+  text-align: center;
+}
+
+.pie_item{
+  padding: 5%;
+}
+
+.pie label
+{
+  font-family: "Montserrat";
+}
+
+.pie p{
+  font-size: 15px;
+  font-family: "Lato_thin";
+}
+
+.copyright{
+  font-family: "Lato_thin";
+  background-color: #1a252f;
+  color: white;
+  text-align:  center;
+  margin: -15px;
+}
+
+@media (min-width:450px)
+{
+  .menu_boton{
+    text-align: right;
+  }
+}
+
+@media (min-width 900px)
+{
+  .menu_boton{
+    visibility: : none
+  }
+}

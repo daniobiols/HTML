@@ -1,0 +1,143 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+    padding-right: 0px;
+    padding-left: 0px;
+    margin-right: 0;
+    margin-left: 0;
+}
+
+@font-face {
+    font-family:"Lato";
+    src: url(../src/fonts/Lato/Lato-Regular.ttf);
+}
+
+@font-face {
+    font-family:"Lato_thin";
+    src: url(../src/fonts/Lato/Lato-Light.ttf);
+}
+
+@font-face {
+    font-family:"Montserrat";
+    src: url(../src/fonts/Montserrat/Montserrat-Bold.ttf);
+}
+
+h1, h2
+{
+  font-family: "Montserrat";
+  text-align:  center;
+  font-size: 2em;
+  color: white;
+}
+
+.tipo_lato, h3
+{
+  font-family: "Lato";
+  color: white;
+  font-size: 1em;
+  text-align: center;
+}
+
+p
+{
+  text-align: center;
+  color: white;
+  font-family: "Lato_thin";
+  font_size: 1em;
+}
+
+.align_style h2
+{
+    text-align: left;
+}
+
+
+.align_style
+{
+  text-align: left;
+}
+
+.justificado
+{
+  text-align: left;
+}
+
+.font_size
+{
+  font-size: 1em;
+}
+
+.color_black
+{
+  color: black;
+}
+
+.encabezado
+{
+    background-color: #2C3E50;
+    padding-top: 14px;
+    padding-left: 15px;
+}
+
+.header
+{
+  margin: 10px 0 10px 3%;
+}
+
+.image_profile_align
+{
+  text-align: center;
+  margin: 5%;
+}
+
+.btn_menu
+{
+  background-color: #18BC9C;
+  margin-bottom: 12px;
+}
+
+.profile
+{
+  background-color: #18BC9C;
+  overflow: hidden;
+}
+
+.producto img
+{
+  text-align: center;
+  width: 100%;
+}
+
+.about
+{
+  text-align: center;
+  background-color: #18BC9C
+}
+
+.btn-success
+{
+  background-color: #18BC9C;
+  border: 1px solid white;
+}
+
+.pie
+{
+  background-color: #2C3E50;
+}
+
+.copyright
+{
+  background-color: #1a252f;
+}
+
+@media (min-width 900px)
+{
+  .btn
+  {
+    display: none;
+  }
+}

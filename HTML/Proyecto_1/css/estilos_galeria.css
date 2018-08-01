@@ -1,0 +1,53 @@
+*
+{
+  box-sizing: border-box;
+}
+
+.contenedor
+{
+  margin: 0 auto;
+  width: 960px;
+}
+
+.estilo_header
+{
+  display: block;
+  width: 930px;
+  padding: 30px;
+  border: dashed 5px red;
+  margin: 20px 0px 20px 0px;
+  background-color: blue;
+}
+
+.estilo_links
+{
+  display: block;
+  float: left;
+  width: 300px;
+  padding: 30px;
+  margin: 20px 0px 20px 0px;
+  border: dashed 5px red;
+  background-color: green;
+}
+
+.estilo_medios
+{
+  display: block;
+  float: right;
+  width: 630px;
+  padding: 30px;
+  border: dashed 5px red;
+  margin: 20px 0px 20px 0px;
+  background-color: green;
+}
+
+.estilo_footer
+{
+  display: block;
+  clear: both;
+  width: 930px;
+  padding: 30px;
+  border: dashed 5px red;
+  margin: 20px 0px 20px 0px;
+  background-color: blue;
+}

@@ -1,0 +1,39 @@
+/* BLOQUE EL RESIZE DE LA CAJA DE COMENTARIOS */
+textarea
+{
+  resize:vertical;
+}
+
+/* MOUSE SOBRE EL LINK */
+a:hover
+{
+  color: yellow;
+}
+
+/* LINK NO VISITADO */
+a:link
+{
+    color: red;
+}
+
+/* LINK VISITADO*/
+a:visited
+{
+
+}
+
+/* CAMBIO EL COLOR DE LAS LETRAS LUEGO DE HACER CLIC */
+a:focus
+{
+  color: blue;
+}
+
+/* CAMBIO EL COLOR DE LAS CAJAS QUE SELECCIONO */
+input:focus
+{
+  background-color: yellow;
+}
+input.hover
+{
+    outline: none;
+}

@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Formulario de Consultas</title>
+    <link rel="stylesheet" href="../css/estilos_formularios.css">
+  </head>
+  <body>
+    <h1>Formulario en HTML</h1>
+    <form class="" action="index.html" method="post">
+      <fieldset>
+        <legend>Formulario de Contacto</legend>
+        <label>Nombre
+          <input type="text"name="nombre" value="" required>
+        </label>
+        <br>
+        <br>
+        <label for="">Apellido
+          <input type="text" name="apellido" value="" required>
+        </label>
+        <br>
+        <br>
+        <label>Correo Electronico
+          <input type="email" placeholder="ejemplo@tuemail.com" name="email" value="">
+        </label>
+        <br>
+        <br>
+        <label for="">Asunto
+          <select class="" name="asunto">
+            <option value="null"selected>----seleccione----</option>
+            <option value="consulta">Consula</option>
+            <option value="reclamo">Reclamo</option>
+            <optgroup label="Otro">
+          </select>
+        </label>
+        <br>
+        <br>
+        <br>
+        <fieldset>
+          <legend>Sexo</legend>
+        <br>
+        <label for="">Mujer
+          <input type="radio" name="genero" value="soltero">
+        </label>
+        <label for="">Hombre
+          <input type="radio" name="genero" value="casado">
+        </label>
+        <label for="">Otro
+          <input type="radio" name="genero" value="otro">
+        </label>
+        </fieldset>
+        <br>
+        <br>
+        <fieldset>
+        <legend>Hobbies</legend>
+        <label for="">Deporte
+          <input type="checkbox" name="hobbies" value="deporte">
+        </label>
+        <label for="">Musica
+          <input type="checkbox" name="hobbies" value="musica">
+        </label>
+        <label for="">Arte
+          <input type="checkbox" name="hobbies" value="arte">
+        </label>
+          </fieldset>
+        <br>
+        <label for="">
+          <fieldset>
+            <legend>Comentarios</legend>
+              <textarea name="mensaje" rows="8" cols="80"></textarea>
+          </fieldset>
+        </label>
+        <br>
+        <br>
+
+        <button type="submit" name="button">Enviar</button>
+        <button type="cancelar" name="button">Cancelar</button>
+
+      </fieldset>
+    </form>
+    <br>
+    <a href="ejercicio.html">Volver al HOME</a>
+    <br>
+    <a href="">Link no visitado</a>
+  </body>
+</html>
